@@ -13,21 +13,22 @@
     color: white;
     text-align: center;
     padding: 1rem 0;
+    margin-bottom: 0px;
+    margin-top: 160px;
     
   }
 
 
-/* General Navbar Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Light background for body */
+    background-color: #f4f4f4; 
 }
 
-/* Navbar Container */
+
 .navbar {
-    background-color: #24262b; /* Dark background color */
+    background-color: #24262b; 
     padding: 15px 0;
     position: sticky;
     top: 0;
@@ -53,7 +54,7 @@ body {
     margin-left: -150px;
 }
 
-/* Navbar Links Styling */
+
 .nav-links {
     list-style: none;
     display: flex;
@@ -72,7 +73,7 @@ body {
     transition: all 0.3s ease;
 }
 
-/* Hover effect on links */
+
 .nav-links li a:hover {
     background-color: #e91e63;
     color: #ffffff;
@@ -80,7 +81,6 @@ body {
     padding-right: 20px;
 }
 
-/* Mobile View Styling */
 @media (max-width: 767px) {
     .nav-links {
         flex-direction: column;
@@ -91,8 +91,6 @@ body {
         font-size: 20px;
     }
 }
-
-
 
 
   header {
@@ -110,7 +108,8 @@ body {
   #searchBar {
     display: flex;
     justify-content: center;
-    margin-bottom: 250px;
+    margin-bottom: 50px;
+   
   }
   input[type="text"] {
     padding: 10px;
@@ -147,9 +146,9 @@ body {
   }
 
   .container{
-
   max-width: 1170px;
   margin:auto;
+ 
 }
 .row{
   display: flex;
